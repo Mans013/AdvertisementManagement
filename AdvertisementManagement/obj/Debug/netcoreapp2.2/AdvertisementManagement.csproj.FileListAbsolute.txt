@@ -1,0 +1,14 @@
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.csproj.CoreCompileInputs.cache
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.AssemblyInfoInputs.cache
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.AssemblyInfo.cs
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\AdvertisementManagement.deps.json
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\AdvertisementManagement.runtimeconfig.json
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\AdvertisementManagement.runtimeconfig.dev.json
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\AdvertisementManagement.dll
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\RabbitMQManagement.dll
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\bin\Debug\netcoreapp2.2\RabbitMQManagement.pdb
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.csprojAssemblyReference.cache
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.RazorAssemblyInfo.cache
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.RazorAssemblyInfo.cs
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.RazorTargetAssemblyInfo.cache
+C:\Users\jensb\Documents\Jaar 4\AfstuderenLight\AdvertisementManagement\AdvertisementManagement\obj\Debug\netcoreapp2.2\AdvertisementManagement.csproj.CopyComplete
