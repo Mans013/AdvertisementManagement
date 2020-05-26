@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using RabbitMQManagement;
 using System;
+using CarManagement.Models;
 
 namespace AdvertisementManagement.Services
 {
@@ -27,8 +28,24 @@ namespace AdvertisementManagement.Services
         public AdvertisementModel Create(AdvertisementModel ad)
         {
             ads.InsertOne(ad);
-            _messagePublisher.PublishMessageAsync("TestCreated", ad, "advertisement.log");
+            _messagePublisher.PublishMessageAsync("AdvertisementAdded", ad, "advertisement.log");
             return ad;
+        }
+
+        public void CreateNewAdvertisement(CarModel car)
+        {
+            AdvertisementModel advertisement = new AdvertisementModel();
+            advertisement.CarID = car.Id;
+            advertisement.Image = "";
+            advertisement.Price = 1000;
+            advertisement.Description = "Lorum Ipsum";
+            Create(advertisement);
+        }
+
+        public void SellCar()
+        {
+            var result = ads.Find(ad => true).FirstOrDefault();
+            _messagePublisher.PublishMessageAsync("CarSold", result, "advertisement.log"); ;
         }
     }
 }

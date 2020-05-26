@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AdvertisementManagement.Services;
 using AdvertisementManagement.Models;
+using CarManagement.Models;
 
 namespace AdvertisementManagement.Manager
 {
@@ -38,7 +39,7 @@ namespace AdvertisementManagement.Manager
                 switch (messageType)
                 {
                     case "SellCar":
-                        _advertisementService.Create(MessageSerializer.Deserialize<AdvertisementModel>(message));
+                        _advertisementService.CreateNewAdvertisement(MessageSerializer.Deserialize<CarModel>(message));
                         break;
                 }
             }

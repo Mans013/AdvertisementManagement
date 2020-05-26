@@ -38,7 +38,8 @@ namespace Boilerplate
             {
                 var list = new List<string>
                 {
-                    "#.advertisement.#"
+                    "#.advertisement.#",
+                    "#.car.#"
                 };
                 return new RabbitMQMessageHandler("localhost", "CarChamp", "advertisementManagement", list);
             });
