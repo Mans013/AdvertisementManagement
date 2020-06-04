@@ -36,12 +36,5 @@ namespace AdvertisementManagement.Controllers
             var newAd = _advertisementService.Create(ad);
             return Ok(JsonConvert.SerializeObject(newAd));
         }
-
-        [Route("sell")]
-        [HttpGet]
-        public void SellRandomCar()
-        {
-            _advertisementService.SellCar();
-        }
     }
 }
